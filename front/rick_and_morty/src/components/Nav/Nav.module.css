@@ -1,0 +1,15 @@
+.home {
+}
+
+.home a {
+    border-radius: 16px;
+    height: 25px;
+    background-color: rgb(200, 27, 67);
+    color: white;
+    border: 1px solid black;
+    padding: 8px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}

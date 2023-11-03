@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  flex-direction: row;
+}
+
+button:hover {
+  background-color: #07cf3c;
+  background-color: rgb(200, 27, 67, .89);
+  cursor: pointer;
+}
+
+button {
+  border-radius: 16px;
+  height: 25px;
+  background-color: rgb(200, 27, 67);
+  color: white;
+  border: 1px solid black;
+  padding: 16px 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+input {
+  height: 25px;
+  border-radius: 16px;
+  border: 1px solid black;
+  padding: 16px 32px;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+}
+
+.iconButton {
+  padding: 16px;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+}
+
+aD a{
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+  align-items: center;
+}
